@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Ecuadorian Navy</name>
+     <texture-fuselage>liveries/EcNavy/Exterior.jpg</texture-fuselage>
+     <texture-tail>liveries/EcNavy/Exterior2.jpg</texture-tail>
+	 <texture-rotor>liveries/EcNavy/Misc.jpg</texture-rotor>
+
+
+ 
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

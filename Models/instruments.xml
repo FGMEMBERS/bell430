@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	
+
+	<!-- top row -->
+
+	<model>
+		<name>TACH</name>
+		<path>Aircraft/bell430/Instruments/tach/tach.xml</path>
+		<offsets>
+			<x-m>-3.201</x-m>
+			<y-m>0.325</y-m>
+			<z-m>0.203</z-m>
+			<offset-deg>-10</offset-deg>
+			
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.05</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>ASI</name>
+		<path>Aircraft/bell430/Instruments/asi/asi.xml</path>
+		<offsets>
+			<x-m>-3.209</x-m>
+			<y-m>0.45</y-m>
+			<z-m>0.22</z-m>
+			<pitch-deg>-7</pitch-deg>
+			<roll-deg>-1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.6</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>AI</name>
+		<path>Aircraft/Instruments-3d/ai/ai.xml</path>
+		<offsets>
+			<!-- fix me: set back for now -->
+				<x-m>-3.213</x-m>
+			<y-m>0.331</y-m>
+			<z-m>0.31</z-m>
+			<pitch-deg>-7</pitch-deg>
+			
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.1</y-offset>
+    <z-offset>1.1</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		<name>sbAI</name>
+		<path>Aircraft/bell430/Models/Instruments/ai/stby-ai.xml</path>
+		<offsets>
+			
+				<x-m>-3.209</x-m>
+			<y-m>0.45</y-m>
+			<z-m>0.22</z-m>
+			<pitch-deg>-7</pitch-deg>
+			<roll-deg>-1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.6</y-offset>
+    <z-offset>1.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		<name>sbAsI</name>
+		<path>Aircraft/bell430/Models/Instruments/asi/stby-asi.xml</path>
+		<offsets>
+			
+				<x-m>-3.195</x-m>
+			<y-m>0.562</y-m>
+			<z-m>0.123</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>-2.1</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.0</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	
+	
+	
+	
+<model>
+		<name>alt</name>
+		<path>Aircraft/bell430/Models/Instruments/alt/stby-alt.xml</path>
+		<offsets>
+			
+				<x-m>-3.206</x-m>
+			<y-m>0.567</y-m>
+			<z-m>0.21</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>-2.1</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.95</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	
+	<model>
+  <path>Aircraft/Instruments-3d/ADF-462/ctl62-adf.xml</path>
+  <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>0.23</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+  <model>
+  <path>Aircraft/Instruments-3d/VHF-22/ctl22-com1.xml</path>
+  <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>0.164</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+ <model>
+  <path>Aircraft/Instruments-3d/VHF-22/ctl22-com2.xml</path>
+  <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>0.092</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+  <model>
+  <path>Aircraft/Instruments-3d/TDR-94/ctl92-transponder.xml</path>
+   <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>0.026</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+  <model>
+  <path>Aircraft/Instruments-3d/VIR-32/ctl32-nav1.xml</path>
+   <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>-0.04</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+ <model>
+  <path>Aircraft/Instruments-3d/VIR-32/ctl32-nav2.xml</path>
+   <offsets>
+            <x-m>-3.21</x-m>
+			<y-m>-0.13</y-m>
+			<z-m>0.318</z-m>
+			<pitch-deg>-2.8</pitch-deg>
+			<roll-deg>0</roll-deg>
+  </offsets>
+  <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+ 
+ <model>
+  <path>Aircraft/Instruments-3d/ki206/ki206.xml</path>
+   <offsets>
+            <x-m>-3.191</x-m>
+			<y-m>-0.55</y-m>
+			<z-m>0.0932</z-m>
+			<pitch-deg>-2.9</pitch-deg>
+			
+			<roll-deg>0</roll-deg>
+  </offsets>
+ <overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1</y-offset>
+    <z-offset>1.0</z-offset>
+   </animation>
+  </overlay>
+ </model>
+ 
+ <model>
+		<name>TACH2</name>
+		<path>Aircraft/bell430/Instruments/tach/tach.xml</path>
+		<offsets>
+			<x-m>-3.205</x-m>
+			<y-m>-0.562</y-m>
+			<z-m>0.20</z-m>
+			<offset-deg>-10</offset-deg>
+			<pitch-deg>-7</pitch-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.05</y-offset>
+    <z-offset>1.05</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	<model>
+		<name>sbAI</name>
+		<path>Aircraft/bell430/Models/Instruments/ai/stby-ai.xml</path>
+		<offsets>
+			
+				 <x-m>-3.205</x-m>
+			<y-m>-0.443</y-m>
+			<z-m>0.215</z-m>
+			<pitch-deg>-2.9</pitch-deg>
+			<roll-deg>1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.6</y-offset>
+    <z-offset>1.7</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	<model>
+		<name>pfd</name>
+		<path>Aircraft/Instruments-3d/primus-1000/primus1000-mfd.xml</path>
+		<offsets>
+			 <x-m>-3.216</x-m>
+			<y-m>-0.325</y-m>
+			<z-m>0.31</z-m>
+			<pitch-deg>-6.5</pitch-deg>
+			<roll-deg>1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.5</y-offset>
+    <z-offset>0.35</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+<!--
+	<model>
+    <name>PFD1</name>
+    <path>Aircraft/Instruments-3d/primus-1000/PFD/PFD.xml</path>
+   <offsets>
+			 <x-m>-3.216</x-m>
+			<y-m>-0.325</y-m>
+			<z-m>0.31</z-m>
+			<pitch-deg>-6.5</pitch-deg>
+			<roll-deg>1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.5</y-offset>
+    <z-offset>0.35</z-offset>
+   </animation>
+   </overlay>
+</model>
+-->
+<model>
+    <name>MFD1</name>
+    <path>Aircraft/Instruments-3d/primus-1000/MFD/MFD.xml</path>
+   <offsets>
+			 <x-m>-3.216</x-m>
+			<y-m>-0.325</y-m>
+			<z-m>0.31</z-m>
+			<pitch-deg>-6.5</pitch-deg>
+			<roll-deg>1.4</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.5</y-offset>
+    <z-offset>0.35</z-offset>
+   </animation>
+    </overlay>
+</model>
+
+
+<model>
+		<name>VSI</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			 <x-m>-3.1935</x-m>
+			<y-m>-0.3125</y-m>
+			<z-m>0.092</z-m>
+			<pitch-deg>-6.5</pitch-deg>
+			<roll-deg>1.4</roll-deg>
+		</offsets>
+	</model>
+	
+	
+	<model>
+		<name>weather</name>
+		<path>Aircraft/Instruments-3d/RDR-160/RDR-160.xml</path>
+		<offsets>
+			 <x-m>-3.1925</x-m>
+			<y-m>-0.165</y-m>
+			<z-m>0.07</z-m>
+			<pitch-deg>-6.5</pitch-deg>
+			<roll-deg>1.0</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>1.04</y-offset>
+    <z-offset>0.9</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+	
+	
+	
+	<model>
+   <path>Aircraft/Instruments-3d/garmin196/garmin196.xml</path>
+   <offsets>
+            <x-m>-3.09</x-m>
+            <y-m>-0.01</y-m>
+            <z-m>-0.04</z-m>
+            <pitch-deg>-60</pitch-deg>
+            
+            <roll-deg>0</roll-deg>
+  </offsets>
+  <animation>
+    <type>scale</type>
+    <value>1.0</value>
+    <x-offset>0</x-offset>
+    <y-offset>1.5</y-offset>
+    <z-offset>0</z-offset>
+  </animation>
+</model>
+
+
+
+<model>
+		<name>bigmfd</name>
+		<path>Aircraft/bell430/Models/Instruments/bigmfd/bigmfd.xml</path>
+		<offsets>
+			
+				 <x-m>-3.205</x-m>
+			<y-m>0.095</y-m>
+			<z-m>0.19</z-m>
+			<pitch-deg>-2.9</pitch-deg>
+			<roll-deg>0</roll-deg>
+		</offsets>
+			<overlay>
+		 <animation n="900">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.83</y-offset>
+    <z-offset>0.6</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+	
+	
+	
+
+	<!-- 2nd row -->
+
+	
+	<model>
+		<name>ADF</name>
+		<path>Aircraft/Instruments-3d/adf/adf.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.10</y-m>
+			<z-m>0.45</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>HI</name>
+		<path>Aircraft/Instruments-3d/hi/hi.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.20</y-m>
+			<z-m>0.45</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>VSI</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.30</y-m>
+			<z-m>0.45</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>CLOCK</name>
+		<path>Aircraft/bell430/Instruments/clock/clock.xml</path>
+		<offsets>
+			<x-m>-2.21</x-m>
+			<y-m>0.10</y-m>
+			<z-m>0.25</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>GSDI</name>
+		<desc>Ground Speed Drift Indicator</desc>
+		<path>Aircraft/bell430/Instruments/gsdi/gsdi.xml</path>
+		<offsets>
+			<x-m>-2.21</x-m>
+			<y-m>0.30</y-m>
+			<z-m>0.35</z-m>
+		</offsets>
+		<condition>
+			<property>instrumentation/gsdi/enabled</property>
+		</condition>
+	</model>
+
+	<!--model>
+		<name>RADIO</name>
+		<path>Aircraft/Instruments-3d/kx170b/kx170b.xml</path>
+		<offsets>
+			<x-m>-2.23</x-m>
+			<y-m>0.25</y-m>
+			<z-m>0.35</z-m>
+		</offsets>
+	</model-->
+
+	<!--model>
+		<name>VOR1</name>
+		<path>Aircraft/Instruments-3d/vor/vor.xml</path>
+		<offsets>
+			<x-m>-2</x-m>
+			<y-m>0.028</y-m>
+			<z-m>0.568</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>VOR2</name>
+		<path>Aircraft/Instruments-3d/vor/vor.xml</path>
+		<offsets>
+			<x-m>-2</x-m>
+			<y-m>0.028</y-m>
+			<z-m>0.477</z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>TC</name>
+		<path>Aircraft/Instruments-3d/tc/tc.xml</path>
+		<offsets>
+			<x-m>-2</x-m>
+			<y-m>0.336</y-m>
+			<z-m>0.477</z-m>
+		</offsets>
+	</model-->
+
+	
+</PropertyList>
+
+
+

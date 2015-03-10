@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">FGUK</name>
+     <texture-fuselage>liveries/FGUK/Exterior.jpg</texture-fuselage>
+     <texture-tail>liveries/FGUK/Exterior2.jpg</texture-tail>
+	 <texture-rotor>liveries/FGUK/Misc.jpg</texture-rotor>
+
+
+  
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

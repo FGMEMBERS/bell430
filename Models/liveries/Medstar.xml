@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Lee County (FL) Medstar</name>
+     <texture-fuselage>liveries/Medstar/Exterior.jpg</texture-fuselage>
+     <texture-tail>liveries/Medstar/Exterior2.jpg</texture-tail>
+	 <texture-rotor>liveries/Medstar/Misc.jpg</texture-rotor>
+
+
+  
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>
