@@ -4,7 +4,7 @@
 	<sim>
 		<description>Bell 430</description>
 		<author>StuartC ( + FDM Mods ),  Maik Justus (FDM)</author>
-		<status>0.2</status>
+		<status>0.3</status>
 		<license>GPL v2</license>
 
 		<flight-model>yasim</flight-model>
@@ -111,13 +111,15 @@
 			<generic>
 				  
         <!-- Nav lights on -->
-      <int n="0" alias="/controls/lighting/nav-lights-switch" />
+      <int n="0" alias="/controls/switches/nav-lights-switch" />
       <!-- Beacon on -->
-      <int n="1" alias="/controls/lighting/beacon-switch" />
+      <int n="1" alias="/controls/switches/beacon-switch" />
       <!-- Landing lights on -->
-      <int n="2" alias="/controls/lighting/landing-lights-switch" />
+      <int n="2" alias="/controls/switches/landing-lights-switch" />
 	    <!-- Taxi light on -->
-      <int n="3" alias="/controls/lighting/taxi-light-switch" />
+      <int n="3" alias="/controls/switches/strobe-switch" />
+      <!-- Crashed -->
+      <int n="7" alias="/sim/crashed" />
 			
 			
 			
