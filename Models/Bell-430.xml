@@ -355,7 +355,7 @@ fadeWhite = lightFadeInOut.new(whiteSwitch, lightsPath~"white-light-intensity");
 	
 
 	<model>
-		<path>Models/Aircraft/marker.xml</path>
+		<path>Aircraft/Generic/marker.xml</path>
 	</model>
 
 
